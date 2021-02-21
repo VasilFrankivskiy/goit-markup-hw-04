@@ -107,6 +107,7 @@ a {
   letter-spacing: 0.02em;
 }
 .svg-contacts {
+  justify-content: center;
   margin-right: 10px;
   fill: currentColor;
   outline: 1px solid black;
@@ -185,7 +186,17 @@ a {
   display: flex;
   justify-content: space-between;
 }
-
+.con-approach-svg {
+  padding: 25px 0 25px;
+  margin-bottom: 30px;
+  background-color: var(--buutom-bac);
+  border-radius: 4px;
+}
+.approach-svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 .approach {
   font-family: "roboto";
   font-size: 14px;
