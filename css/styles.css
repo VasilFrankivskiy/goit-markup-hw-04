@@ -107,7 +107,6 @@ a {
   letter-spacing: 0.02em;
 }
 .svg-contacts {
-  justify-content: center;
   margin-right: 10px;
   fill: currentColor;
   outline: 1px solid black;
