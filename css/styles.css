@@ -283,7 +283,13 @@ a {
 }
 .ul-svg-links {
   display: flex;
-  outline: cadetblue;
+  background-color: cornflowerblue;
+  /* align-items: center;
+  justify-content: center; */
+}
+.svg-links {
+  outline: solid red;
+  border-radius: 50%;
 }
 /* Карточки команди */
 
