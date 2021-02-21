@@ -109,7 +109,7 @@ a {
 .svg-contacts {
   margin-right: 10px;
   fill: currentColor;
-  outline: 1px solid black;
+  outline: 1px solid rgb(131, 74, 74);
 }
 
 /* -----------Блок героя--------- */
@@ -281,7 +281,10 @@ a {
   letter-spacing: 0.03em;
   line-height: 1.18;
 }
-
+.ul-svg-links {
+  display: flex;
+  outline: cadetblue;
+}
 /* Карточки команди */
 
 .card-team {
