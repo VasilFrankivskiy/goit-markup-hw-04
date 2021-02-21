@@ -284,8 +284,8 @@ a {
 .ul-svg-links {
   display: flex;
   background-color: cornflowerblue;
-  /* align-items: center;
-  justify-content: center; */
+  align-items: center;
+  justify-content: space-around;
 }
 .svg-links {
   outline: solid red;
