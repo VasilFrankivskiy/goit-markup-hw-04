@@ -291,19 +291,23 @@ a {
   justify-content: space-around;
 }
 .social-link {
-  padding: 5px;
-  fill: var(--social-networks);
+  color: var(--social-networks);
+  width: 44px;
+  height: 44px;
+  display: block;
+  justify-content: space-around;
+  align-items: center;
 
+  fill: var(--social-networks);
   background-color: transparent;
 }
 .svg-links {
   border-radius: 50%;
+  fill: currentColor;
 }
-.svg-links :hover {
-  fill: blue;
-}
+
 .social-link :hover {
-  fill: fff;
+  color: #ffffff;
   background-color: var(--blue-text);
 }
 
@@ -336,6 +340,30 @@ a {
 .team-card-content {
   text-align: center;
   padding: 30px 32px;
+}
+/*  Постійні клієнти */
+
+.client {
+  text-align: center;
+}
+.client-link {
+  border: 1px red;
+  color: var(--social-networks);
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+
+  fill: var(--social-networks);
+  background-color: transparent;
+}
+.svg-client-links {
+  border-radius: 50%;
+  fill: currentColor;
+}
+
+.client-link :hover {
+  color: #ffffff;
+  background-color: var(--blue-text);
 }
 
 /* ----------Підвал------ */
