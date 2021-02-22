@@ -266,6 +266,7 @@ a {
   line-height: 1.16;
 }
 .team-name {
+  margin-bottom: 10px;
   font-family: "roboto";
   font-size: 16px;
   font-weight: 500;
@@ -282,15 +283,30 @@ a {
   line-height: 1.18;
 }
 .ul-svg-links {
+  margin-top: 16px;
+  max-width: 270px;
   display: flex;
-  background-color: cornflowerblue;
+
   align-items: center;
   justify-content: space-around;
 }
+.social-link {
+  padding: 5px;
+  fill: var(--social-networks);
+
+  background-color: transparent;
+}
 .svg-links {
-  outline: solid red;
   border-radius: 50%;
 }
+.svg-links :hover {
+  fill: blue;
+}
+.social-link :hover {
+  fill: fff;
+  background-color: var(--blue-text);
+}
+
 /* Карточки команди */
 
 .card-team {
@@ -318,7 +334,8 @@ a {
 }
 
 .team-card-content {
-  padding: 30px;
+  text-align: center;
+  padding: 30px 32px;
 }
 
 /* ----------Підвал------ */

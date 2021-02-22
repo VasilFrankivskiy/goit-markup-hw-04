@@ -1,4 +1,6 @@
 :root {
+  --social-networks: rgba(175, 177, 184, 1);
+
   --border-color: rgba(236, 236, 236, 1);
   --bac-section: rgba(229, 229, 229, 1);
   --buutom-bac: rgba(245, 244, 250, 1);
