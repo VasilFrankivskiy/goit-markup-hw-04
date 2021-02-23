@@ -29,7 +29,7 @@ a {
 }
 .header {
   background-color: var(--white-text);
-  border: 1px solid #ececec;
+  border-bottom: solid #ececec;
 }
 .nav {
   display: flex;
