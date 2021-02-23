@@ -289,19 +289,21 @@ a {
   color: var(--social-networks);
   width: 44px;
   height: 44px;
-  display: block;
-  justify-content: space-around;
+  display: flex;
+  justify-content: center;
   align-items: center;
 
   fill: var(--social-networks);
   background-color: transparent;
 }
 .svg-links {
-  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
   fill: currentColor;
 }
 
-.social-link :hover {
+.social-link:hover {
+  border-radius: 50%;
   color: #ffffff;
   background-color: var(--blue-text);
 }
