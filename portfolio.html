@@ -24,11 +24,13 @@
                     <span class="logo-web">Web</span>
                     <span class="logo-studio">Studio</span></a>
                 <ul class="ul-link">
-                    <li><a  href="./index.html">
+                    <li><a href="./index.html">
                             <span class="nav-logo">Студия</span></a></li>
     
-                    <li><a class="active" href="./portfolio.html">
-                            <span class="nav-logo">Портфолио</span></a></li>
+                    <li>
+                        <a class="active" href="./portfolio.html">
+                            <span class="nav-logo">Портфолио</span></a>
+                    </li>
     
                     <li><a href="#contacts">
                             <span class="nav-logo">Контакты</span></a></li>
@@ -36,10 +38,24 @@
             </nav>
     
             <ul class="ul-link">
-                <li><a href="mailto:Info@exampie.com">
-                        <span class="nav-contacts">Info@exampie.com</span></a></li>
-                <li><a href="tel:+380991111111">
-                        <span class="nav-contacts">+38 099 111 11 11</span></a></li>
+    
+                <li>
+                    <a class="nav-contacts" href="mailto:Info@exampie.com">
+                        <svg class="svg-contacts" width="16" height="12">
+                            <use href="./images/icons.svg#icon-mail"></use>
+                        </svg>
+                        Info@exampie.com
+                    </a>
+                </li>
+    
+                <li>
+                    <a class="nav-contacts" href="tel:+380991111111">
+                        <svg class="svg-contacts" width="10" height="16">
+                            <use href="./images/icons.svg#icon-smartphone"></use>
+                        </svg> +38 099 111 11 11
+                    </a>
+                </li>
+    
             </ul>
     
     
@@ -65,14 +81,16 @@
             <ul class="card-set">
                 <li class="item">
                     <article class="card">
-                        <div class="card-thumb">
-                            <img src="./images/examples-of-works/img1.jpg" alt="Приклад роботи" width="370">
-                        </div>
-    
-                        <div class="card-content">
-                            <h2 class="project-name">Технокряк</h2>
-                            <p class="signature">Веб-сайт</p>
-                        </div>
+                       <a class="link-card" href="www.produckt.com">
+                            <div class="card-thumb">
+                                <img src="./images/examples-of-works/img1.jpg" alt="Приклад роботи" width="370">
+                            </div>
+                            
+                            <div class="card-content">
+                                <h2 class="project-name">Технокряк</h2>
+                                <p class="signature">Веб-сайт</p>
+                            </div>
+                       </a>
                     </article>
                 </li>
     
@@ -208,6 +226,44 @@
                 </address>
     
             </div>
+    
+            <div>
+                <h2 class="footer-title">присоединяйтесь</h2>
+                <ul class="ul-svg-links">
+    
+                    <li>
+                        <a class="social-link" href="https://www.instagram.com/">
+    
+                            <svg class="svg-links" width="44" height="44">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+    
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a class="social-link" href="https://twitter.com/">
+                            <svg class="svg-links" width="44" height="44">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+    
+                    <li><a class="social-link" href="https://www.facebook.com/">
+                            <svg class="svg-links" width="44" height="44">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a></li>
+    
+                    <li><a class="social-link" href="https://www.linkedin.com/">
+                            <svg class="svg-links" width="44" height="44">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a></li>
+    
+                </ul>
+            </div>
+    
         </div>
     
     </footer>
