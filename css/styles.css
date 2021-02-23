@@ -526,13 +526,12 @@ a {
 }
 
 /* CARD */
-.card {
+/* .card {
   border-radius: 4px;
-  /* overflow: hidden; */
-}
+} */
 
 .link-card {
-  background: var;
+  background: var(--white-text);
 }
 .link-card :hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
