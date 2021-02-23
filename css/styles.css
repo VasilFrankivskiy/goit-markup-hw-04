@@ -43,7 +43,6 @@ a {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
 }
 .nav-link {
   display: flex;
@@ -130,7 +129,6 @@ a {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
 }
 
 .hero-text {
@@ -176,7 +174,6 @@ a {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
 }
 .ul-approach {
   display: flex;
@@ -221,7 +218,6 @@ a {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
 }
 .what-we-do {
   padding-bottom: 50px;
@@ -250,7 +246,6 @@ a {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
 }
 .team {
   margin-bottom: 50px;
@@ -349,7 +344,7 @@ a {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
+
   text-align: center;
 }
 .title-client {
@@ -403,7 +398,6 @@ a {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
 }
 .container-address {
   margin-right: 70px;
@@ -463,7 +457,6 @@ a {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
 }
 .ul-button {
   display: flex;
