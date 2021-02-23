@@ -101,6 +101,8 @@ a {
   font-weight: 500;
   color: var(--grey-text);
   letter-spacing: 0.02em;
+  justify-content: center;
+  align-items: center;
 }
 .svg-contacts {
   margin-right: 10px;
