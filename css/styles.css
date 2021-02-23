@@ -79,12 +79,8 @@ a {
   font-size: 26px;
   letter-spacing: 0.03em;
 }
-.active {
-  font-family: "roboto";
-  font-size: 14px;
-  font-weight: 500;
+.active .nav-logo {
   color: var(--blue-text);
-  letter-spacing: 0.02em;
 }
 .nav-logo {
   padding-left: 50px;
